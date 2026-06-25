@@ -1,0 +1,1 @@
+const c={1:"证件",2:"钥匙",3:"电子设备",4:"衣物",5:"钱包",6:"其他"},s={0:{label:"未找回/未归还",type:"warning"},1:{label:"已找回/已归还",type:"success"}},T={1:"#409eff",2:"#67c23a",3:"#e6a23c",4:"#f56c6c",5:"#909399",6:"#b37feb"},t=Object.entries(c).map(([e,a])=>({value:Number(e),label:a}));export{c as I,T as a,s as b,t as c};
